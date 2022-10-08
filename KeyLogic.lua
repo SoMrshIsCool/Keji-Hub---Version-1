@@ -12,9 +12,7 @@ end
 function CheckKey()
     if sf_key == KeyInput then
         Destroy()
-        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-        local Window = OrionLib:MakeWindow({Name = "Keji Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SoMrshIsCool/Keji-Hub---Version-1/main/MainLogic.lua",true))()
     end
 end
 
