@@ -18,7 +18,7 @@ Support:AddParagraph("How do I use it?", "Keji Hub is very simple with a simple 
 Support:AddParagraph("I need Help, How can I get support?", "You can easily shoot the Keji Hub support team at KejiHubTeam@gmail.com!")
 
 
-local Aimbot = Window:MakeTab({
+local AimbotPage = Window:MakeTab({
     Name = "Aimbot",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
